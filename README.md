@@ -24,6 +24,8 @@ PRIMARY KEY        (Key1, cluster1, cluster2)
 PRIMARY KEY        ((Key1, Key2) cluster1, cluster2) 
 --------------------------------+-------------------+
  		            Partion Key | Clustering Columns  
+----------------------------------------------------+
+                   Compound/Composite Key
 ```
 
 
