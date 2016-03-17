@@ -8,7 +8,7 @@ Definitions:
 
 >The **Primary Key** is equivalent to the Partition Key in a single-field-key table.
 
->The **Composite/Compund** Key is just a multiple-columns key
+>The **Composite/Compund Key** is just a multiple-columns Primary key
 
 Why it matters: We think of Cassandra nodes as being organized in a ring. Each node in the ring is responsible for a portion of the data. But how do we know which data goes on which node? It's simple. Each node is responsible for a range of tokens. When you input data you designate the primary/partition key. Cassandra hashes that key. The hash or "token" tells us the physical address of the data. We send the data to the node responsible for that token (address) range. 
 
