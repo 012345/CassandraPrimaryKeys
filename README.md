@@ -26,7 +26,7 @@ PRIMARY KEY        ((Key1, Key2) cluster1, cluster2)
 
 Time to dig in!
 
-This exercise assumes that you have at least one Cassandra or DSE node up and running. You may need to replace *127.0.0.1* with whatever your node's IP Address is.
+This exercise assumes that you have at least one Cassandra or DSE node up and running. You may need to replace **127.0.0.1** with whatever your node's IP Address is.
 
 Lets start by creating a keyspace 
 
