@@ -1,4 +1,4 @@
-# CassandraPrimaryKeys
+# Cassandra Keys and Clustering Columns
 This exercise is for anyone new to Cassandra and is confused by the terms Primary Key, Partition Key, Compound Keys, and Clustering Columns
 
 Definitions: 
