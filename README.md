@@ -266,5 +266,5 @@ If you want the most useful Cassandra Modeling resource on the internet you shou
 
 If you think you've found your calling, you should reach out to me. We're always looking for new talent kathryn.erickson@datastax.com
 
-Built from a simple explanation put together by Carlo Bertuccini
+This exercise was built from a simple explanation put together by Carlo Bertuccini
 http://stackoverflow.com/questions/24949676/difference-between-partition-key-composite-key-and-clustering-key-in-cassandra
