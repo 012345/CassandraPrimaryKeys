@@ -243,7 +243,7 @@ Yields
  1977 |       4 |         8.7 |       1.3149e+08 | 4.61e+08 | A New Hope |    3.144e+08 |            94 |       7.754e+08
 ```
 
-There may be situations, however, where you have a lot of data. Think about a sensor in which your sensor is the primary key and it's readings are stored as wide rows. All your looking for is a range of readings from that specific sensor: 
+There may be situations, however, where you have a lot of data. Think about a sensor in which your sensor is the primary key and it's readings are stored as wide rows. All you're looking for is a range of readings from that specific sensor: 
 
 ```
 SELECT * FROM starwars WHERE date=1977 and episode > 4;
