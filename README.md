@@ -140,9 +140,9 @@ CREATE TABLE pkfun.starwars (
     PRIMARY KEY ((date,episode))
 );
 ```
-Why the double parentheses?  We're going to talk about clustering columns soon. But for now lets just go with it. If you want two things in your partition key... if you want Cassandra to has TWO columns to output a token, it MUST be within a set of parentheses within your primary key statement.
+Why the double parentheses?  We're going to talk about clustering columns soon. But for now lets just go with it and refer back to the diagrams at the beginning to convince yourself I'm right. If you want two things in your partition key... if you want Cassandra to has TWO columns to output a token, it MUST be within a set of parentheses within your primary key statement.
 
-We're going to move on to a more complex example soon. So lets keep pretending that the Empire struck back in 1977. To do that we need to insert some data. 
+Lets keep pretending that the Empire struck back in 1977. To do that we need to insert some data. 
 
 ```
 INSERT INTO pkfun.starwars (date, name, episode, na_gross, non_na_gross, worldwide_gross, inflammation_adj, imdb_rating, rotten_rating) VALUES (1977, 'A New Hope', 4, 460998007, 314400000, 775398007, 131485043, 8.7, 94);
