@@ -76,6 +76,10 @@ INSERT INTO pkfun.starwars (date, name, episode, na_gross, non_na_gross, worldwi
 INSERT INTO pkfun.starwars (date, name, episode, na_gross, non_na_gross, worldwide_gross, inflammation_adj, imdb_rating, rotten_rating) VALUES (2005,'Revenge of the Sith',3,380270577, 468484191 , 848754768 ,460743580,7.7,79);
 
 INSERT INTO pkfun.starwars (date, name, episode, na_gross, non_na_gross, worldwide_gross, inflammation_adj, rotten_rating) VALUES (2015,'The Force Awakens',7,931067821,1122000000,2053067821,931067821,94);
+
+INSERT INTO pkfun.starwars (date, name, na_gross, non_na_gross, worldwide_gross, rotten_rating) VALUES (2016,'Rogue One: A Star Wars Story',532177324,523879949,1056057273,931067821,84);
+
+INSERT INTO pkfun.starwars (date, name, episode, rotten_rating) VALUES (2016,'The Last Jedi',8,93);
 ```
 
 Episode 1 was intentionally left out of this dataset because it makes sense to pretend that it does not exist. If you strongly disagree you can take this insert statement and shove it (into your table)
